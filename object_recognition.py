@@ -1,6 +1,8 @@
 import cv2 as cv
 
 # Pre-trained machine learning model via 'Haar' algorithm.
+# You need to download it https://github.com/kipr/opencv/blob/master/
+# data/haarcascades/haarcascade_frontalface_default.xml
 faces_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 video = cv.VideoCapture(0)
 
